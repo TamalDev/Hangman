@@ -1,4 +1,4 @@
-# hangman
+# Hangman
 En este repositorio podrás encontrar el código para desarrollar uno de los juegos más clásicos de nuestra infancia: "El ahorcado", este se desarolló usando python; lenguaje considerado como uno de los más sencillos de aprender para personas que están entrando en el mundo de la programación.
 
 A continuación las reglas básicas para jugar "Hangman" contra la IA.
