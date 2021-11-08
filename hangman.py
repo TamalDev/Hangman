@@ -20,8 +20,28 @@ BIENVENIDO AL JUEGO DEL AHORCADO!!
 
 """)
 
+print("""A continuación ingresa la letra que consideres hace parte de la palabra secreta: 
+
+""")
+
+from os import replace
+import random
+import io
+
+def palabra_aleatoria(palabras):
+
+    with io.open ("palabras.txt", "r", encoding='utf-8') as f:
+        nueva_palabra = list(f)
+
+    return random.choice(nueva_palabra).strip()
+
+for i in range(1):
+    print(palabra_aleatoria(".Hangman/palabras.txt"))
+
 def run():
     pass
+
+
 
 if __name__ == '__main__':
     run()
